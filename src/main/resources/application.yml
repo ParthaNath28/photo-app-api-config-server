@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: PhotoAppConfigServer
+  profile:
+    active: git
+  rabbitmq:
+    addresses: localhost:5672
+    adminAddresses: http://localhost:15672
+    nodes: rabbit@localhost
+    username: guest
+    password: guest
+    virtual_host: /
+    useSSL: false
+    sslProperties:
+    ssl:
+      keyStore:
+      keyStorePassphrase:
+      trustStore:
+      trustStorePassphrase:
+    channelCacheSize: 100
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ParthaNath28/PhotoAppConfig
+          skipSslValidation: true
+          username: partha.cemk@gmail.com
+          password: Be1m@n2186
+          clone-on-start: true
+          default-label: main
+    bus:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh, bus-env
+
+server:
+  port: 8012
+
+
