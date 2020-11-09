@@ -26,7 +26,7 @@ spring:
           uri: https://github.com/ParthaNath28/PhotoAppConfig
           skipSslValidation: true
           username: partha.cemk@gmail.com
-          password: Be1m@n2186
+          password: '{cipher}AQAXGORTA13LcJ9Dt4Eq6FVVDX236vxGNE8wDL+Ua+QZYXoxyq2UlR1CDZfIpJAvCmbwnnRxwAGUF5PytZf/XZeo5jg169jrOTaEE6TWwofNYJ18VfMVWmYvnRSiP2UMsHCCcMx44jYoOdepq2gYBTreLUivdPtqrEWZTS8etqJvy/5L1olRbF8ikK7oKYsiiMsWymqReyUtnHAWpa6F+LXxgsr3OFt4ciZEP4VC4xSQi5mrhd82HcV01f3jAsaH1VW4Gne+4rlbvhSpo/78+KhmvoocRgavsintzglk9cbawUpMyIfht6PHXI8YAlyyFIqoqFl4CM7thqW7sXd9TCaXT8sSTgOph8bVdfemRn+vXImdAW0OoAhL2a1UxfIFWUc='
           clone-on-start: true
           default-label: main
     bus:
