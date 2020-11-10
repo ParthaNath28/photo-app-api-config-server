@@ -1,4 +1,5 @@
 FROM openjdk:11.0.7-jre-slim
+FROM maven:3.6-alpine as builder
 
 VOLUME /tmp
 
