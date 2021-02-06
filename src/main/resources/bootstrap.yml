@@ -1,5 +1,5 @@
 encrypt:
   key-store:
-    location: file:/apiEncryptionKey.jks
+    location: file:///E://Partha_Drive//Git_Project//apiEncryptionKey.jks
     password: zapp123
     alias: zapp

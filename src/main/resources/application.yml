@@ -26,7 +26,7 @@ spring:
           uri: https://github.com/ParthaNath28/PhotoAppConfig
           skipSslValidation: true
           username: partha.cemk@gmail.com
-          password: '{cipher}AQAXGORTA13LcJ9Dt4Eq6FVVDX236vxGNE8wDL+Ua+QZYXoxyq2UlR1CDZfIpJAvCmbwnnRxwAGUF5PytZf/XZeo5jg169jrOTaEE6TWwofNYJ18VfMVWmYvnRSiP2UMsHCCcMx44jYoOdepq2gYBTreLUivdPtqrEWZTS8etqJvy/5L1olRbF8ikK7oKYsiiMsWymqReyUtnHAWpa6F+LXxgsr3OFt4ciZEP4VC4xSQi5mrhd82HcV01f3jAsaH1VW4Gne+4rlbvhSpo/78+KhmvoocRgavsintzglk9cbawUpMyIfht6PHXI8YAlyyFIqoqFl4CM7thqW7sXd9TCaXT8sSTgOph8bVdfemRn+vXImdAW0OoAhL2a1UxfIFWUc='
+          password: '{cipher}AQA1UC/WX6i76uFiIAM8Bo8TQpUZWTL192JYQrM6cNtSDpbd2ExAbQ6hwbFw/XNkzVM5nOch+X/CVz3K1ZeClayhS8UqVbcPanpqydDi4StyIuYx45ObbbMssGPJEbha5UGgF4UKkSuTCZ3LD9dNECq+f1ZcVqGAflSnYg3QPUdvlt5Bu1h9bWij0XVcx0Zbi0gvTL1mKrFNYK4lk1e/ksm6/RHKK0CmvN54Fty4FxklaSSoxmCt3BxdOJka5iZZFTv/DM0p4c6rbzSI/fZYSd51S5LpOHOINDMBqlRU/Q1UT2F9KV2g6hJSJgwOJFVIcQ74aF8MoaTlWjU2jqfxk2rqDDJcasbW19eRA93dxCJAfTQ7HFiFttNTF/80UcOSWTU='
           clone-on-start: true
           default-label: main
     bus:

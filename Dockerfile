@@ -3,7 +3,7 @@ FROM maven:3.6-alpine as builder
 
 VOLUME /tmp
 
-RUN mvn package 
+RUN mvn package
 
 COPY apiEncryptionKey.jks apiEncryptionKey.jks
 COPY UnlimitedJCEPolicyJDK8/* /usr/lib/jvm/java-1.11-openjdk/jre/lib/security/
